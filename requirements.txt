@@ -4,3 +4,4 @@ aiohttp==3.8.1
 pyrogram==1.4.16
 pyromod==1.5
 TgCrypto
+requests==2.28.2
