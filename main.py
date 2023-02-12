@@ -25,11 +25,11 @@ import re
 from pyrogram import Client as bot
 DEF_FORMAT = "480"
 os.makedirs("./downloads", exist_ok=True)
-API_ID = 22396233
-API_HASH = "e5cbafdf36380b9aff2f1f564dbd53c2"
-BOT_TOKEN = "6218657811:AAGn5M1OPzIy4YCDaKu_jZtfaBIPgqtUnjw"
-AUTH_USERS = 5370626917
-sudo_users = [5370626917]
+API_ID = 
+API_HASH = ""
+BOT_TOKEN = ""
+AUTH_USERS = 
+sudo_users = []
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
