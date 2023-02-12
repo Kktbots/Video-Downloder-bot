@@ -24,8 +24,6 @@ from get_video_info import get_video_attributes, get_video_thumb
 import re
 from pyrogram import Client as bot
 DEF_FORMAT = "480"
-from dotenv import load_dotenv
-load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
 API_ID = 22396233
 API_HASH = "e5cbafdf36380b9aff2f1f564dbd53c2"
