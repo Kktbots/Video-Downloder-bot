@@ -23,5 +23,5 @@ itsdangerous==2.1.2
 multidict-6.0.4
 pyaes==1.6.1
 pysocks
-urllib3=1.26.14
-yarl-1.8.2
+urllib3==1.26.14
+yarl==1.8.2
