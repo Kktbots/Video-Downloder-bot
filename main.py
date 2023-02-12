@@ -1,4 +1,3 @@
-import requests
 import json
 import subprocess
 from pyrogram.types.messages_and_media import message
