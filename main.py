@@ -24,10 +24,12 @@ from get_video_info import get_video_attributes, get_video_thumb
 import re
 from pyrogram import Client as bot
 DEF_FORMAT = "480"
+from dotenv import load_dotenv
+load_dotenv()
 os.makedirs("./downloads", exist_ok=True)
 API_ID = 24229815
 API_HASH = "6d03e392b1200580a85ef243f83a48a5"
-BOT_TOKEN = "5701882553:AAHtWkyH804Sxy8h4t_LZ3WPwQvm3oe5U8I"
+BOT_TOKEN = "5699427730:AAHk0E8UDna81hQc4ztDq2SzzaB3vcHa5uw"
 AUTH_USERS = 5523592151
 sudo_users = [5523592151]
 bot = Client(
