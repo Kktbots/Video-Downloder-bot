@@ -5,4 +5,4 @@ WORKDIR ..
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-CMD ["bash","bash.sh"]
+CMD [python main.py]
